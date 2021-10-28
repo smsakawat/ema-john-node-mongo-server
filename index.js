@@ -69,7 +69,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Updated here");
+  res.send("Running ema-john Server");
 });
 
 app.listen(port, () => {
